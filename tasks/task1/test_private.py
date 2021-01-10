@@ -27,6 +27,72 @@ TEST_CASES = [
         mouses=[3, 0],
         optimal_count = 3,
     ),
+    Case(
+        name='base3',
+        transitions=[1, 1],
+        mouses=[3, 1, 2],
+        optimal_count = 3,
+    ),
+    Case(
+        name='base4',
+        transitions=[1, 1],
+        mouses=[3, 1, 3],
+        optimal_count = 4,
+    ),
+    Case(
+        name='base5',
+        transitions=[1, 1, 1, 4],
+        mouses=[28, 0, 0, 0, 0],
+        optimal_count = 10,
+    ),
+    Case(
+        name='base6',
+        transitions=[1],
+        mouses=[91, 0],
+        optimal_count = 91,
+    ),
+    Case(
+        name='base7',
+        transitions=[1, 1, 2, 4, 4, 3, 6, 1, 5],
+        mouses=[44, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        optimal_count = 11,
+    ),
+    Case(
+        name='base8',
+        transitions=[1, 2, 3, 4, 5, 6, 7, 8, 9],
+        mouses=[92, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        optimal_count = 92,
+    ),
+    Case(
+        name='base9',
+        transitions=[1],
+        mouses=[74, 73],
+        optimal_count = 147,
+    ),
+    Case(
+        name='base10',
+        transitions=[1, 1, 1, 1, 1, 1, 1, 1, 1],
+        mouses=[77, 10, 36, 51, 50, 82, 8, 56, 7, 26],
+        optimal_count = 82,
+    ),
+    Case(
+        name='base11',
+        transitions=[1, 1],
+        mouses=[0, 0, 0],
+        optimal_count = 0,
+    ),
+    Case(
+        name='base12',
+        transitions=[1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7],
+        mouses=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        optimal_count = 2,
+    ),
+    Case(
+        name='base13',
+        transitions=[1, 1, 2, 2, 3, 3, 4, 4, 5],
+        mouses=[0, 0, 1000, 0, 0, 0, 0, 0, 0, 0],
+        optimal_count = 500,
+    ),
 ]
 
 
